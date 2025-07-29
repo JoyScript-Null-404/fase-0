@@ -1,35 +1,53 @@
 
 
 header {
-    background-color:dimgrey;
-    width:auto;
-    height:auto;
-    font-size: 30px;
-    color: greenyellow;
+    background-color:lightsteelblue;
+        height:100px;
+    color: darkslateblue;
+    border-color: aliceblue;
+    border-radius: 10vw;
+    margin:auto;
+    margin-top: 25px;
+}
+
+#Cabecera{
+    display:flex;
+    align-self: center;
+    justify-content: space-evenly;
 }
 
 #Cabecera img{
-    width: 250px;
+    width: 220px;
+    height: auto;
+    margin-top: -1.5em;
+    margin-left: 3vw;    
 }
 
 #Cabecera ul{
-    display: inline-flex;
-    text-size-adjust: 20px;
+    display:flex;
+    align-content:end;
 }
 
 #Cabecera li{
     font-size: 20px;
-    text-transform: capitalize;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     list-style: none;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 2em;
+    margin-top: 0em;
+    text-align:right;
 }
 
 #Cabecera li:hover {
-    background-color: crimson;
+    background-color: darkslategrey;
+    padding-inline:4px;
     color: white;
-    text-transform:uppercase;
-    text-align:start;
+    height: 22px;
+    width: auto;
+    border-end-end-radius: 10px;
+    border-start-start-radius: 10px;
+    border-start-end-radius: 10px;
+    border-end-start-radius: 10px;
+    font-size: 14pt;
+
 }
 
