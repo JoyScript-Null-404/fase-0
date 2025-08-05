@@ -1,9 +1,13 @@
 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+/* CABECERA y todo lo que este en la cabecera */
 
 header {
         height:100px;
     color: darkslateblue;
-    border-color:aqua;
+    border-color: blueviolet;
     border-width: 2px;
     border-style:groove;
     border-radius: 10vw;
@@ -18,9 +22,9 @@ header {
 }
 
 #Cabecera img{
-    width: 220px;
+    width: 300px;
     height: auto;
-    margin-top: -1.5em;
+    margin-top: 0.5vw;
     margin-left: 3vw;    
 }
 
@@ -40,7 +44,7 @@ header {
 
 #Cabecera li:hover {
     background-color: darkorchid;
-    padding-inline:4px;
+    padding-inline:6px;
     color: white;
     height: 22px;
     width: auto;
@@ -52,12 +56,100 @@ header {
 
 }
 #Cabecera:hover{
-    border-color: blueviolet;
-    border-width:1%;
+    border-color:aqua;
+    border: width 1em;
 }
 
 body {
     background-image: url("../IMG/EchoFme-Background.svg");
     background-repeat:repeat;
     background-size:30%;
+}
+
+/* BODY Y TODO LO QUE CONTENGA EL CUERPO */
+
+/* Portal HERO  */
+
+#hero-section {
+    margin-top: 10px;
+    margin-inline: auto;
+}
+
+#hero-contenedor{
+    display: inline-flex;
+    drop-shadow:4px, 4px, 10px, black;
+
+}
+
+#img-aside {
+    background-image: url("../IMG/photography-water-reflection-bali-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-color: khaki;
+    background-size:cover;
+    height: 30em;
+    border-end-end-radius: 2rem;
+    border-start-end-radius:2em;
+    background-position: bottom;
+
+}
+
+
+#hero-text {
+    background-color: rgb(78, 1, 91);
+    height:30em;
+    border-start-start-radius: 2rem;
+    border-end-start-radius:2rem;
+    text-align :center;
+    color: aliceblue;
+}
+
+#hero-text:hover {
+    background-color:transparent;    
+    color: blueviolet;
+    border-color: blueviolet;
+    border-width: 3px 1px 3px 0px;
+    border-style:dashed;
+    border-right-color: transparent;
+    height: 29.7rem;
+}
+
+
+
+#hero-h1 {
+    font-size: 7vh;
+    margin-bottom: 0;
+
+}
+
+#hero-h1:hover {
+    color: blueviolet;
+
+}
+
+#hero-title p{
+    font-size:35px;
+    margin-top: 0   ;
+}
+
+#btn-contenedor {
+    display:flex;
+    justify-content: center;
+}
+
+#hero-btn {
+    background-color: darkorchid;
+    border-color: transparent;
+    border-style: groove;
+    border-width: 2px;
+    width: 45%;
+    height:4vh;
+    color: aliceblue;
+    font-size: large;
+    border-radius: 10vw;
+    margin-block: 400px;
+}
+
+#hero-btn:hover {
+    background-color: gold;
+    color: indigo;
 }
