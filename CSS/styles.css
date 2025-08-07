@@ -90,6 +90,7 @@ body {
     border-end-end-radius: 2rem;
     border-start-end-radius:2em;
     background-position: bottom;
+    overflow: hidden;
 
 }
 
@@ -139,17 +140,18 @@ body {
 #hero-btn {
     background-color: darkorchid;
     border-color: transparent;
-    border-style: groove;
-    border-width: 2px;
     width: 45%;
     height:4vh;
     color: aliceblue;
     font-size: large;
     border-radius: 10vw;
-    margin-block: 400px;
+    margin-block-start: 400px;
 }
 
-#hero-btn:hover {
+#hero-btn:active {
     background-color: gold;
     color: indigo;
+    filter: none;
+    rotate: 2deg;
+    filter: drop-shadow(1px 5px 1px purple);
 }
