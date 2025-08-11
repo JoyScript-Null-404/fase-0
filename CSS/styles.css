@@ -148,10 +148,14 @@ body {
     margin-block-start: 400px;
 }
 
-#hero-btn:active {
+#hero-btn:hover {
     background-color: gold;
     color: indigo;
-    filter: none;
-    rotate: 2deg;
-    filter: drop-shadow(1px 5px 1px purple);
+
 }
+
+#hero-btn:active {
+    background-color: green;
+    color: white;
+}
+
